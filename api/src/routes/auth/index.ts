@@ -13,7 +13,7 @@ import jwt from 'jsonwebtoken';
 const router = Router();
 
 const generateUserToken = (user: any) => {
-  return jwt.sign({ userId: user.id, role: user.role }, 'your-secret', {
+  return jwt.sign({ userId: user.id, role: user.role }, '32523523orieodif', {
     expiresIn: '30d',
   });
 };
