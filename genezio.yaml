@@ -23,7 +23,7 @@ frontend:
             - npm run build
         deploy:
             - npm install
-    subdomain: fullstack-ecommerce
-name: fullstack-ecommerce
+    subdomain: fullstack-ecommerce1
+name: fullstack-ecommerce1
 region: us-east-1
 yamlVersion: 2
